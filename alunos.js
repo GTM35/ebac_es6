@@ -23,7 +23,7 @@ const alunos = [
 ];
 
 function alunosAprovados(alunos) {
-  alunosAprovados = alunos.filter((aluno) => {
+  let alunosAprovados = alunos.filter((aluno) => {
     return aluno.nota >= 6;
   });
 
